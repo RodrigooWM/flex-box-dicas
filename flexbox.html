@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex e Position</title>
+</head>
+    <style>
+        body{
+        font-family: cursive;
+        width: 1000px;
+        margin:auto;
+        text-align:justify;
+
+
+    }
+    h1{
+        text-align:center; 
+    }
+    section{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    #pos1{
+        background-color: rgb(154, 209, 247);
+        border-radius: 10px;
+        padding: 5px;
+        width: 200px;
+    }
+    #pos2{
+        background-color: rgb(154, 209, 247);
+        border-radius: 10px;
+        padding: 5px;
+        width: 200px;
+    }
+    #pos3{
+        background-color: rgb(154, 209, 247);
+        border-radius: 10px;
+        padding: 5px;
+        width: 200px;
+    }
+    #pos4{
+        background-color: rgb(154, 209, 247);
+        border-radius: 10px;
+        padding: 5px;
+        width: 200px;
+    }
+    #pos5{
+        background-color: rgb(154, 209, 247);
+        border-radius: 10px;
+        padding: 5px;
+        width: 200px;
+    }
+    #pos6{
+        background-color: rgb(154, 209, 247);
+        border-radius: 10px;
+        padding: 5px;
+        width: 200px;
+    }
+    #pos7{
+        background-color: rgb(154, 209, 247);
+        border-radius: 10px;
+        padding: 5px;
+        width: 200px;
+    }
+    #pos8{
+        background-color: rgb(154, 209, 247);
+        border-radius: 10px;
+        padding: 5px;
+        width: 200px;
+    }
+    #pos9{
+        position:relative;
+        left:40em;
+        background-color: rgb(154, 209, 247);
+        border-radius: 10px;
+        padding: 5px;
+        width: 250px;
+    }
+    #git{
+        position:relative;
+        bottom: 16em; 
+        padding:5px;
+        background-color: grey;
+        width:620px;
+        border-radius: 10px;
+        
+
+    }
+    </style>
+<body>
+
+    <h1>Flex-Box / Git básico:</h1>
+    
+
+<section>
+    <div id="pos1">
+        <p>
+            <strong>display: flex;</strong><br>
+            Identificar que a tag vai ser o elemento container do flexbox
+        </p>
+    </div>
+    
+    <div id="pos2">
+        <p>
+            <strong>flex-direction: row | row-reverse | column | column-reverse | inherit | initial | unset ;</strong><br>
+            Diz a direção do eixo principal
+        </p>
+    </div>
+    
+    <div id="pos3">
+        <p>
+            <strong>justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly | initial | inherit;</strong><br>
+            Alinha os elementos no eixo principal
+        </p>
+    </div>
+    
+    <div id="pos4">
+        <p>
+            <strong>align-items: stretch | center | start | end;</strong><br>
+            Alinhar os elementos no eixo x.
+        </p>
+    </div>
+    
+    <div id="pos5">
+        <p>
+            <strong>flex-wrap: nowrap | wrap;</strong><br>
+            Quebra (ou não) a linha se não houver espaço dentro do container.
+        </p>
+    </div>
+    
+    <div id="pos6">
+        <p>
+            <strong>flex-flow: row wrap | row-reverse nowrap | column wrap-reverse | wrap ;</strong><br>
+            Definem o flex-direction e o flex-wrap ao mesmo tempo.
+        </p>
+    </div>
+    
+    <div id="pos7">
+        <p>
+            <strong>align-content: stretch | center | flex-start | flex-end | space-between | space-around | space-evenly | initial | inherit;</strong><br>
+            Quando há o flex-wrap mas queremos alinhas tudo no eixo x.
+        </p>
+    </div>
+    
+    <div id="pos6">
+        <p>
+            <strong>gap, row-gap e column-gap: valor numérico;</strong><br>
+            Fixa o espaço entre os elementos, lado a lado ou entre eles em cada uma das linhas.
+        </p>
+    </div>
+    
+    <div id="pos9">
+        <p>
+            <div><strong>position: static | relative | absolute | sticky;</strong><br></div>
+            Determina o tipo de posição do elemento. A posição exata é definida através dos atributos "top, bottom, right e left". Também podemos usar o margin e padding a nosso favor, para tornar o visual mais agradável.
+        </p>
+    </div>
+
+ 
+        
+
+    
+</section>
+
+    <div id="git">
+        <strong>Create a new repository on the command line</strong> <br>
+
+git init<br>
+git add <u>README.md</u> (nome do arquivo e sua extensão)<br>
+git commit -m "<u>first commit</u>" (comentário que será atribuído ao arquivo)<br>
+git branch -M main<br>
+git remote add origin https://github.com/RodrigooWM/<u>nome do repositório</u>.git<br>
+git push -u origin main<br>
+
+<strong>push an existing repository from the command line</strong><br>
+git remote add origin https://github.com/RodrigooWM/<u>nome do repositório.git<br>
+git branch -M main<br>
+git push -u origin main<br>
+    </div>
+
+</body>
+</html>
