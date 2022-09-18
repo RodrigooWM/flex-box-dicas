@@ -1,0 +1,1 @@
+Esse arquivo contém algumas dicas de flexbox e um pouco de git ao final. Para abrí-lo, basta abrir em um navegador.
